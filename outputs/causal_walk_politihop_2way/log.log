@@ -1,0 +1,172 @@
+2023-08-14 19:38:45,135 [INFO] load data...
+2023-08-14 19:38:45,167 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-14 19:38:51,610 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-14 19:38:53,783 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-14 19:38:53,795 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-14 19:39:01,706 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-14 19:39:05,494 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-14 19:39:05,518 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-14 19:39:15,191 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-14 19:39:19,532 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-14 19:39:19,550 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-14 19:39:29,313 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-14 19:39:29,330 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-14 19:39:31,381 [INFO] start train...
+2023-08-14 19:39:31,382 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-14 19:39:31,413 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-14 19:40:30,254 [INFO] epoch: 0, Train acc: 0.830108, total loss: 1.162286
+
+2023-08-14 19:40:38,092 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.877193, total loss: 0.955016
+
+2023-08-14 19:40:58,725 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.500000, total loss: 1.524582
+
+2023-08-14 19:41:16,527 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.500000, total loss: 1.525987
+
+2023-08-14 19:42:02,830 [INFO] epoch: 1, Train acc: 0.849462, total loss: 0.934291
+
+2023-08-14 19:42:10,784 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.883041, total loss: 0.875595
+
+2023-08-14 19:42:29,440 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.500000, total loss: 1.597901
+
+2023-08-14 19:42:42,921 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.500000, total loss: 1.602372
+
+2023-08-14 19:43:25,727 [INFO] epoch: 2, Train acc: 0.956989, total loss: 0.732832
+
+2023-08-14 19:43:32,386 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.847953, total loss: 0.927054
+
+2023-08-14 19:43:46,104 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.526316, total loss: 1.558431
+
+2023-08-14 19:44:04,510 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.526316, total loss: 1.554022
+
+2023-08-14 19:44:51,254 [INFO] epoch: 3, Train acc: 0.959140, total loss: 0.712005
+
+2023-08-14 19:44:58,538 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.859649, total loss: 0.898145
+
+2023-08-14 19:45:11,612 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.540936, total loss: 1.533997
+
+2023-08-14 19:45:27,295 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.570175, total loss: 1.474861
+
+2023-08-14 19:46:13,311 [INFO] epoch: 4, Train acc: 0.963441, total loss: 0.715574
+
+2023-08-14 19:46:21,222 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.871345, total loss: 0.885980
+
+2023-08-14 19:46:35,809 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.517544, total loss: 1.589606
+
+2023-08-14 19:46:49,224 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.520468, total loss: 1.583938
+
+2023-08-14 19:47:31,859 [INFO] epoch: 5, Train acc: 0.967742, total loss: 0.692560
+
+2023-08-14 19:47:40,251 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.871345, total loss: 0.886186
+
+2023-08-14 19:47:56,138 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.520468, total loss: 1.585828
+
+2023-08-14 19:48:11,304 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.520468, total loss: 1.581968
+
+2023-08-14 19:48:54,124 [INFO] epoch: 6, Train acc: 0.967742, total loss: 0.692113
+
+2023-08-14 19:49:01,260 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.871345, total loss: 0.886244
+
+2023-08-14 19:49:16,757 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.520468, total loss: 1.585541
+
+2023-08-14 19:49:30,360 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.520468, total loss: 1.582660
+
+2023-08-14 19:50:12,382 [INFO] epoch: 7, Train acc: 0.967742, total loss: 0.691868
+
+2023-08-14 19:50:19,755 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.871345, total loss: 0.886275
+
+2023-08-14 19:50:34,534 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.520468, total loss: 1.585549
+
+2023-08-14 19:50:48,665 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.520468, total loss: 1.583560
+
+2023-08-14 19:51:31,883 [INFO] epoch: 8, Train acc: 0.967742, total loss: 0.691681
+
+2023-08-14 19:51:38,391 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.871345, total loss: 0.886276
+
+2023-08-14 19:51:51,400 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.520468, total loss: 1.585977
+
+2023-08-14 19:52:04,328 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.520468, total loss: 1.584489
+
+2023-08-14 19:52:46,913 [INFO] epoch: 9, Train acc: 0.967742, total loss: 0.691632
+
+2023-08-14 19:52:55,309 [INFO] data/politihop/original/politihop_test_adv-2class.json Dev total acc: 0.871345, total loss: 0.886263
+
+2023-08-14 19:53:10,658 [INFO] data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json Dev total acc: 0.520468, total loss: 1.586468
+
+2023-08-14 19:53:24,998 [INFO] data/politihop/symmetric/Symmetric_PolitiHop.json Dev total acc: 0.520468, total loss: 1.585061
+
+2023-08-14 19:53:25,015 [INFO] {
+ "data/politihop/original/politihop_test_adv-2class.json": 0.8830409356725146,
+ "data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json": 0.5409356725146198,
+ "data/politihop/symmetric/Symmetric_PolitiHop.json": 0.5701754385964912
+}
+2023-08-14 19:53:25,030 [INFO] {
+ "data/politihop/original/politihop_test_adv-2class.json": 234,
+ "data/politihop/symmetric/Symmetric_PolitiHop_ShareEvi.json": 468,
+ "data/politihop/symmetric/Symmetric_PolitiHop.json": 468
+}
+2023-08-14 19:53:25,030 [INFO] total_steps: 1170

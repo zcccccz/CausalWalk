@@ -1,0 +1,3 @@
+# Ignore data and pretrained_models folders
+data/
+pretrained_models/

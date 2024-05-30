@@ -1,0 +1,312 @@
+2023-08-03 13:12:12,408 [INFO] load data...
+2023-08-03 13:12:12,409 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-03 13:12:46,799 [INFO] load data...
+2023-08-03 13:12:46,799 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-03 13:14:50,579 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-03 13:15:38,713 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-03 13:15:38,714 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-03 13:17:26,373 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-03 13:17:39,464 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-03 13:17:39,466 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-03 13:18:10,514 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-03 13:18:16,003 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-03 13:18:16,005 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-03 13:18:25,110 [INFO] loading vocabulary file pretrained_models/BERT-Pair/vocab.txt
+2023-08-03 13:18:28,293 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-03 13:18:28,295 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-03 13:18:33,311 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-03 13:18:33,314 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-03 13:18:35,153 [INFO] start train...
+2023-08-03 13:18:35,154 [INFO] loading archive file pretrained_models/BERT-Pair
+2023-08-03 13:18:35,154 [INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2023-08-03 13:40:27,096 [INFO] epoch: 0, Train acc: 0.918977, total loss: 0.824049
+
+2023-08-03 13:43:05,701 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.901890, total loss: 0.817761
+
+2023-08-03 13:43:48,157 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.928772, total loss: 0.765301
+
+2023-08-03 13:43:57,512 [INFO] data/fever/fever2-2class.json Dev total acc: 0.603558, total loss: 1.415434
+
+2023-08-03 13:44:02,517 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.626238, total loss: 1.360113
+
+2023-08-03 14:01:42,809 [INFO] epoch: 1, Train acc: 0.955176, total loss: 0.715017
+
+2023-08-03 14:04:21,111 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.882613, total loss: 0.858311
+
+2023-08-03 14:05:02,135 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.900449, total loss: 0.821704
+
+2023-08-03 14:05:11,057 [INFO] data/fever/fever2-2class.json Dev total acc: 0.580686, total loss: 1.474986
+
+2023-08-03 14:05:15,576 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.603960, total loss: 1.430531
+
+2023-08-03 14:22:27,314 [INFO] epoch: 2, Train acc: 0.948366, total loss: 0.728824
+
+2023-08-03 14:25:01,562 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.869262, total loss: 0.886894
+
+2023-08-03 14:25:42,609 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.893158, total loss: 0.840034
+
+2023-08-03 14:25:51,756 [INFO] data/fever/fever2-2class.json Dev total acc: 0.617535, total loss: 1.396366
+
+2023-08-03 14:25:56,333 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.633663, total loss: 1.361822
+
+2023-08-03 14:43:13,321 [INFO] epoch: 3, Train acc: 0.949970, total loss: 0.725153
+
+2023-08-03 14:45:47,276 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.879538, total loss: 0.864009
+
+2023-08-03 14:46:28,099 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.909142, total loss: 0.806533
+
+2023-08-03 14:46:36,917 [INFO] data/fever/fever2-2class.json Dev total acc: 0.609911, total loss: 1.409785
+
+2023-08-03 14:46:41,426 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.665842, total loss: 1.286497
+
+2023-08-03 15:03:51,480 [INFO] epoch: 4, Train acc: 0.957052, total loss: 0.711217
+
+2023-08-03 15:06:22,143 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.873387, total loss: 0.874989
+
+2023-08-03 15:07:02,113 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.897644, total loss: 0.825945
+
+2023-08-03 15:07:10,980 [INFO] data/fever/fever2-2class.json Dev total acc: 0.561626, total loss: 1.497563
+
+2023-08-03 15:07:15,507 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.611386, total loss: 1.388466
+
+2023-08-03 15:24:24,177 [INFO] epoch: 5, Train acc: 0.964649, total loss: 0.695640
+
+2023-08-03 15:26:56,705 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.874512, total loss: 0.870987
+
+2023-08-03 15:27:36,694 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.902973, total loss: 0.811802
+
+2023-08-03 15:27:45,782 [INFO] data/fever/fever2-2class.json Dev total acc: 0.595934, total loss: 1.425669
+
+2023-08-03 15:27:50,418 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.646040, total loss: 1.344168
+
+2023-08-03 15:44:58,732 [INFO] epoch: 6, Train acc: 0.969703, total loss: 0.685765
+
+2023-08-03 15:47:29,141 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.890639, total loss: 0.837417
+
+2023-08-03 15:48:09,143 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.913348, total loss: 0.794804
+
+2023-08-03 15:48:18,020 [INFO] data/fever/fever2-2class.json Dev total acc: 0.612452, total loss: 1.399277
+
+2023-08-03 15:48:22,518 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.655941, total loss: 1.317682
+
+2023-08-03 16:05:32,766 [INFO] epoch: 7, Train acc: 0.971277, total loss: 0.682876
+
+2023-08-03 16:08:03,288 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.880363, total loss: 0.859907
+
+2023-08-03 16:08:43,680 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.906618, total loss: 0.805893
+
+2023-08-03 16:08:52,575 [INFO] data/fever/fever2-2class.json Dev total acc: 0.614994, total loss: 1.383635
+
+2023-08-03 16:08:57,094 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.670792, total loss: 1.266171
+
+2023-08-03 16:26:04,739 [INFO] epoch: 8, Train acc: 0.974183, total loss: 0.677421
+
+2023-08-03 16:28:36,325 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.877063, total loss: 0.869044
+
+2023-08-03 16:29:17,183 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.905496, total loss: 0.810905
+
+2023-08-03 16:29:26,123 [INFO] data/fever/fever2-2class.json Dev total acc: 0.594663, total loss: 1.440172
+
+2023-08-03 16:29:30,674 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.641089, total loss: 1.343919
+
+2023-08-03 16:46:34,225 [INFO] epoch: 9, Train acc: 0.974758, total loss: 0.676577
+
+2023-08-03 16:49:03,262 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.876538, total loss: 0.869057
+
+2023-08-03 16:49:43,766 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.903533, total loss: 0.814621
+
+2023-08-03 16:49:52,570 [INFO] data/fever/fever2-2class.json Dev total acc: 0.597205, total loss: 1.430350
+
+2023-08-03 16:49:57,088 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.646040, total loss: 1.321329
+
+2023-08-03 17:06:45,844 [INFO] epoch: 10, Train acc: 0.975272, total loss: 0.675608
+
+2023-08-03 17:09:16,079 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.878488, total loss: 0.863328
+
+2023-08-03 17:09:56,013 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.910544, total loss: 0.800441
+
+2023-08-03 17:10:04,815 [INFO] data/fever/fever2-2class.json Dev total acc: 0.595934, total loss: 1.422864
+
+2023-08-03 17:10:09,324 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.658416, total loss: 1.311989
+
+2023-08-03 17:26:53,649 [INFO] epoch: 11, Train acc: 0.977936, total loss: 0.670090
+
+2023-08-03 17:29:22,061 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.870237, total loss: 0.877182
+
+2023-08-03 17:30:01,672 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.901290, total loss: 0.814894
+
+2023-08-03 17:30:10,370 [INFO] data/fever/fever2-2class.json Dev total acc: 0.578145, total loss: 1.459876
+
+2023-08-03 17:30:14,814 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.636139, total loss: 1.345101
+
+2023-08-03 17:46:59,270 [INFO] epoch: 12, Train acc: 0.978238, total loss: 0.669978
+
+2023-08-03 17:49:27,486 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.886289, total loss: 0.850532
+
+2023-08-03 17:50:07,095 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.916713, total loss: 0.790132
+
+2023-08-03 17:50:16,050 [INFO] data/fever/fever2-2class.json Dev total acc: 0.613723, total loss: 1.414487
+
+2023-08-03 17:50:20,532 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.641089, total loss: 1.361524
+
+2023-08-03 18:07:00,201 [INFO] epoch: 13, Train acc: 0.979056, total loss: 0.667998
+
+2023-08-03 18:09:28,981 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.880363, total loss: 0.860979
+
+2023-08-03 18:10:08,882 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.914750, total loss: 0.791509
+
+2023-08-03 18:10:17,625 [INFO] data/fever/fever2-2class.json Dev total acc: 0.598475, total loss: 1.431520
+
+2023-08-03 18:10:22,109 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.648515, total loss: 1.336341
+
+2023-08-03 18:27:09,548 [INFO] epoch: 14, Train acc: 0.980236, total loss: 0.665973
+
+2023-08-03 18:29:38,184 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.879838, total loss: 0.863376
+
+2023-08-03 18:30:17,695 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.907740, total loss: 0.807878
+
+2023-08-03 18:30:26,421 [INFO] data/fever/fever2-2class.json Dev total acc: 0.590851, total loss: 1.444053
+
+2023-08-03 18:30:30,871 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.638614, total loss: 1.332869
+
+2023-08-03 18:47:06,205 [INFO] epoch: 15, Train acc: 0.981144, total loss: 0.664127
+
+2023-08-03 18:49:35,175 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.894314, total loss: 0.835197
+
+2023-08-03 18:50:15,452 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.925407, total loss: 0.771684
+
+2023-08-03 18:50:24,863 [INFO] data/fever/fever2-2class.json Dev total acc: 0.621347, total loss: 1.383921
+
+2023-08-03 18:50:29,439 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.646040, total loss: 1.339260
+
+2023-08-03 19:07:08,569 [INFO] epoch: 16, Train acc: 0.981628, total loss: 0.662957
+
+2023-08-03 19:09:37,955 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.890639, total loss: 0.839753
+
+2023-08-03 19:10:17,345 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.920920, total loss: 0.780315
+
+2023-08-03 19:10:26,038 [INFO] data/fever/fever2-2class.json Dev total acc: 0.604828, total loss: 1.408930
+
+2023-08-03 19:10:30,510 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.636139, total loss: 1.348781
+
+2023-08-03 19:27:04,113 [INFO] epoch: 17, Train acc: 0.982809, total loss: 0.660609
+
+2023-08-03 19:29:32,251 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.886064, total loss: 0.850836
+
+2023-08-03 19:30:12,143 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.918957, total loss: 0.783800
+
+2023-08-03 19:30:20,868 [INFO] data/fever/fever2-2class.json Dev total acc: 0.604828, total loss: 1.418405
+
+2023-08-03 19:30:25,343 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.648515, total loss: 1.333116
+
+2023-08-03 19:47:00,454 [INFO] epoch: 18, Train acc: 0.983505, total loss: 0.659477
+
+2023-08-03 19:49:28,464 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.884938, total loss: 0.851390
+
+2023-08-03 19:50:08,184 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.916433, total loss: 0.788092
+
+2023-08-03 19:50:16,964 [INFO] data/fever/fever2-2class.json Dev total acc: 0.608640, total loss: 1.411106
+
+2023-08-03 19:50:21,400 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.648515, total loss: 1.317737
+
+2023-08-03 20:06:51,336 [INFO] epoch: 19, Train acc: 0.983747, total loss: 0.658952
+
+2023-08-03 20:09:20,631 [INFO] data/fever/fever_dev-2class.json Dev total acc: 0.888689, total loss: 0.844495
+
+2023-08-03 20:10:00,310 [INFO] data/fever/fever_dev-2class-mh.json Dev total acc: 0.922042, total loss: 0.776966
+
+2023-08-03 20:10:09,004 [INFO] data/fever/fever2-2class.json Dev total acc: 0.609911, total loss: 1.399254
+
+2023-08-03 20:10:13,470 [INFO] data/fever/fever2-2class-mh.json Dev total acc: 0.646040, total loss: 1.329244
+
+2023-08-03 20:10:13,472 [INFO] {
+ "data/fever/fever_dev-2class.json": 0.9018901890189019,
+ "data/fever/fever_dev-2class-mh.json": 0.928771733034212,
+ "data/fever/fever2-2class.json": 0.6213468869123253,
+ "data/fever/fever2-2class-mh.json": 0.6707920792079208
+}
+2023-08-03 20:10:13,472 [INFO] {
+ "data/fever/fever_dev-2class.json": 2065,
+ "data/fever/fever_dev-2class-mh.json": 2065,
+ "data/fever/fever2-2class.json": 33040,
+ "data/fever/fever2-2class-mh.json": 16520
+}
+2023-08-03 20:10:13,472 [INFO] total_steps: 41300
