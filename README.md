@@ -20,6 +20,12 @@ CausalWalk
     └── utils.py
 ```
 
+# Environment
+Install python dependencies.
+```
+pip install -r requirements.txt
+```
+
 # Reproduction
 Trained on the FEVER dataset and evaluated on Adversarial FEVER. (2-way)
 ```
