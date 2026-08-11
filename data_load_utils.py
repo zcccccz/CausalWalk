@@ -181,7 +181,7 @@ def _truncate_seq_pair(tokens_a, tokens_b, max_length):
 
 def read_examples(input_file, max_evi_num):
     """Read a list of `InputExample`s from an input file."""
-    label_map = {'SUPPORTS': 0, 'REFUTES': 1, 'NOT ENOUGH INFO': 2}
+    label_map = {'SUPPORTS': 1, 'REFUTES': 0, 'NOT ENOUGH INFO': 2}
     examples = []
     unique_id = 0
     all_sent_labels = [] # 有几个句子,包括claim
